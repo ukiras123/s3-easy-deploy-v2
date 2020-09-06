@@ -4,7 +4,7 @@ Node JS module and cli command for easily deploying to AWS S3.
 
 ## Installation
 
-`npm install s3-easy-deploy-v2`
+`npm install s3-deploy-easy`
 
 ## How it works
 
@@ -17,7 +17,7 @@ Also sets ACL to public read on all uploaded files.
 ### Within node script
 
 ```
-var s3EasyDeploy = require('s3-easy-deploy-v2');
+var s3EasyDeploy = require('s3-deploy-easy');
 
 // with callback
 s3EasyDeploy.deploy({
@@ -58,10 +58,10 @@ specified in ~/.aws/credentials. This can be specified instead of `accessKeyId` 
 
 ### With command `s3-easy-deploy`
 
-`s3-easy-deploy-v2 --help`:
+`s3-deploy-easy --help`:
 
 ```
-  Usage: s3-easy-deploy-v2 [options]
+  Usage: s3-deploy-easy [options]
 
   Options:
 
@@ -80,6 +80,6 @@ specified in ~/.aws/credentials. This can be specified instead of `accessKeyId` 
 ```
 
 Example usage:
-`s3-easy-deploy --access-key-id kjch84hg9shd --secret-access-key v3049g0jdge --public-root ./public --bucket magic-bucket-name --acl public-read`
+`s3-deploy-easy--access-key-id kjch84hg9shd --secret-access-key v3049g0jdge --public-root ./public --bucket magic-bucket-name --acl public-read`
 or specify a config file
-`s3-easy-deploy deploy-config.json`
+`s3-deploy-easy deploy-config.json`

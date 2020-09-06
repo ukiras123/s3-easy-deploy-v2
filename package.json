@@ -1,5 +1,5 @@
 {
-  "name": "s3-easy-deploy-v2",
+  "name": "s3-deploy-easy",
   "version": "0.1.0",
   "description": "Quickly and easily deploy files to AWS S3",
   "main": "index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ukiras123/s3-easy-deploy-v2.git"
+    "url": "git+https://github.com/ukiras123/s3-easy-deploy-v2.git"
   },
   "keywords": [
     "s3",
