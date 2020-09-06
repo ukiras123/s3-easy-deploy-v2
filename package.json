@@ -21,7 +21,7 @@
     "s3",
     "deploy"
   ],
-  "author": "jeremyplease (Jeremy Louie)",
+  "author": "Kiran Gautam",
   "license": "MIT",
   "dependencies": {
     "async": "^2.0.0",
